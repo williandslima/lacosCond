@@ -2,7 +2,7 @@ programa {
   funcao inicio() {
 cadeia tipoAnimal, caracAnimal, alimentoAnimal, totalTexto
 
-
+escreva ("---- Ola vamos aprender um pouco? ----- \n")
 
 escreva ("Digite um tipo de animal: --- | Vertebrado ou Invertebrado | --- \n")
 leia(tipoAnimal)
@@ -13,7 +13,6 @@ leia(alimentoAnimal)
 
 		se (tipoAnimal == "Vertebrado" e caracAnimal == "Ave" e alimentoAnimal == "Carnivoro")
 		    escreva("Aguia") 
-    
 		senao se (tipoAnimal == "Vertebrado" e caracAnimal == "Ave" e alimentoAnimal == "Onivoro")
 		    escreva("Pomba") 
 		senao se (tipoAnimal == "Vertebrado" e caracAnimal == "Mamifero" e alimentoAnimal == "Onivoro")
@@ -34,10 +33,6 @@ leia(alimentoAnimal)
     senao
 		    escreva("Verifique a maneira digitada")
         
-    
-
-
-
 
   }
 }

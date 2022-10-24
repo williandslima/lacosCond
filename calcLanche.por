@@ -36,7 +36,7 @@ escolha codProduto {
         pare
         caso 4:
            valorTotal = quantProduto * 12
-           escreva("A compra realizada foi Bauro com o valor total de R$ ", valorTotal)
+           escreva("A compra realizada foi Bauru com o valor total de R$ ", valorTotal)
         pare
         caso 5:
            valorTotal = quantProduto * 8
